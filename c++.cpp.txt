@@ -1,0 +1,25 @@
+#include <iostream>
+#include "windows.h"
+#include <math.h>
+
+using namespace std;
+
+int main()
+{
+	double m, v, E;
+
+	SetConsoleCP(1251);
+	SetConsoleOutputCP(1251);
+
+	cout << "Введите m: ";
+	cin >> m;
+	cout << "Введите v: ";
+	cin >> v;
+
+
+	E = (m * v * v) / 2;
+
+	cout << "E =" << E << endl;
+	system("pause");
+	return 0;
+}
